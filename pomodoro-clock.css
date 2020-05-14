@@ -1,0 +1,120 @@
+body {
+  font-family: Dosis;
+  color: #FFF;
+  background-size: cover;
+  min-height: 100%;
+  max-width: 100%;
+  max-height: auto;
+ 
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #ff8080;
+  font-size: 4em;
+  text-align: center;
+}
+
+h1 span {
+  color: #ff8080;
+
+}
+
+h2 {
+  color: #ff8080;
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 40px;
+}
+
+h2 a {
+  color: #ff8080;
+}
+
+.circle-clock {
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  background: #ff8080;
+  margin-bottom: 30px;
+} 
+
+.clock-time {
+  font-size: 3em;
+  text-align: center;
+}
+
+.status {
+  font-size: 1.5em;
+  margin-top: -40px;
+}
+
+.break-setter,
+.work-setter {
+  display: inline-block;
+  color: #FFF;
+  text-align: center;
+  font-size: 1.0em;
+  font-weight: 300;
+  width: 240px;
+  min-height: 100%;
+  max-width: 100%;
+  padding: 10px;
+  background: #ff8080;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.break-setter p,
+.work-setter p {
+  font-size: 2em;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+.break-setter {
+  float: left;
+  margin-left: 100px;
+}
+
+.work-setter {
+  float: right;
+  margin-right: 100px;
+}
+
+button {
+  transition: 0.2s;
+  color: #80ffaa;
+  margin: 2px;
+  padding: 2px;
+  border-radius: 5px;
+  background: #ff8080;
+  font-size: 2em;
+  padding: 0px 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  line-height: 1.0;
+}
+
+.break-time,
+.work-time {
+  font-size: 2em;
+  padding: 0 10px 0 10px;
+  cursor: pointer;
+}
+
+.setters {
+  margin-bottom: 30px;
+}
+
+
